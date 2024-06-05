@@ -1,0 +1,133 @@
+ul {
+    margin: 0;
+}
+
+
+html {
+    height: 100%;
+}
+
+body {
+    background-image: url(../images/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+    background-attachment: fixed;
+}
+
+p,
+blockquote {
+    font-size: 22px;
+    padding: 40px 100px 40px 240px;
+
+    text-align: left;
+}
+
+
+nav {
+    background-color: skyblue;
+    padding-top: 0px;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav li a {
+    list-style: none;
+    text-decoration: none;
+    padding: 22px 85px;
+    color: white;
+    font-family: "Courier New";
+    font-size: 18px;
+}
+
+nav li a:hover {
+    color: aqua;
+}
+
+nav li a:active {
+    color: aquamarine;
+}
+
+h1,
+h2,
+p,
+footer,
+main li,
+blockquote,
+figcaption {
+    font-family: "Courier New";
+}
+
+abbr {
+    text-decoration: none;
+    color: chartreuse;
+    font-style: italic;
+}
+
+main li {
+    font-size: 22px;
+    padding: 10px
+}
+
+
+.list {
+    text-align: center;
+    list-style-position: inside;
+}
+
+#copyright {
+    color: darkslategrey;
+}
+
+figure {
+    float: left;
+    width: 20%;
+}
+
+img {
+    width: 100%;
+}
+
+figcaption {
+    color: darkblue
+}
+
+table,
+caption,
+th,
+td {
+    border: solid black 2px;
+    border-collapse: collapse;
+    font-family: "Courier New";
+    font-size: 22px;
+}
+
+td {
+    padding: 5px
+}
+
+th {
+    background-color: darkcyan;
+}
+
+caption {
+    background-color: midnightblue;
+    color: aliceblue;
+}
+
+tbody tr:nth-of-type(odd) {
+    background-color: cadetblue;
+}
+
+tbody tr:nth-of-type(even) {
+    background-color:#92C7C7
+}
+
+tbody tr:hover 
+{
+ background-color: #004b49;
+ color: white;
+}
